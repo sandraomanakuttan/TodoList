@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <h4>ARE YOU WANT FOR CLEAR ALL</h4>
+    <button type="submit" class="btn btn-warning">CLEAR ALL</button>
+
+
+</form>
+{% endblock %}
